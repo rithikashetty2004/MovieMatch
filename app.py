@@ -11,7 +11,7 @@ st.set_page_config(page_title="Movie Recommender", layout="wide")
 st.title("🎬 Movie Recommender System")
 st.markdown("Get recommendations based on your favorite movie! 🍿")
 
-OMDB_API_KEY = "dd5d7e0e"
+OMDB_API_KEY = "Your_api_key"
 
 
 def fetch_movie_details(title):
